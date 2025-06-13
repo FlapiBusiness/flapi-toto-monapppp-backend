@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: staging-customerName-projectName-backend-service
-  namespace: staging-customerName-projectName-backend
+  name: staging-toto-MonApppp-backend-service
+  namespace: staging-toto-MonApppp-backend
 spec:
   ports:
     - port: 3333
       targetPort: 3333
   selector:
-    app: staging-customerName-projectName-backend
+    app: staging-toto-MonApppp-backend

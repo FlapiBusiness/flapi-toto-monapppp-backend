@@ -1,12 +1,12 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: dev-customerName-projectName-backend-cert
-  namespace: dev-customerName-projectName-backend
+  name: dev-toto-MonApppp-backend-cert
+  namespace: dev-toto-MonApppp-backend
 spec:
-  secretName: dev-customerName-projectName-backend-tls
+  secretName: dev-toto-MonApppp-backend-tls
   dnsNames:
-    - dev.example.api.flapi.org
+    - dev.testdomain.api.flapi.org
   issuerRef:
     name: letsencrypt-production
     kind: ClusterIssuer
